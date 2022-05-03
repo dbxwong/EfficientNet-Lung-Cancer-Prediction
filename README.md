@@ -1,4 +1,4 @@
-# CHEST CT SCAN LUNG CANCER PREDICTION
+## CHEST CT SCAN LUNG CANCER PREDICTION
 
 # IMPETUS 
 Worldwide, an estimated 19.3 million new cancer cases (18.1 million excluding nonmelanoma skin cancer) and almost 10.0 million cancer deaths (9.9 million excluding nonmelanoma skin cancer) occurred in 2020. Female breast cancer has surpassed lung cancer as the most commonly diagnosed cancer, with an estimated 2.3 million new cases (11.7%), followed by lung (11.4%), colorectal (10.0 %), prostate (7.3%), and stomach (5.6%) cancers. Lung cancer remained the leading cause of cancer death, with an estimated 1.8 million deaths (18%), followed by colorectal (9.4%), liver (8.3%), stomach (7.7%), and female breast (6.9%) cancers [Source](https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.21660). On a personal note, I picked lung cancer prediction having lost a grandmother to the disease.
