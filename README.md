@@ -1,13 +1,13 @@
 ## CHEST CT SCAN LUNG CANCER PREDICTION
 
-# IMPETUS 
+## IMPETUS 
 Worldwide, an estimated 19.3 million new cancer cases (18.1 million excluding nonmelanoma skin cancer) and almost 10.0 million cancer deaths (9.9 million excluding nonmelanoma skin cancer) occurred in 2020. Female breast cancer has surpassed lung cancer as the most commonly diagnosed cancer, with an estimated 2.3 million new cases (11.7%), followed by lung (11.4%), colorectal (10.0 %), prostate (7.3%), and stomach (5.6%) cancers. Lung cancer remained the leading cause of cancer death, with an estimated 1.8 million deaths (18%), followed by colorectal (9.4%), liver (8.3%), stomach (7.7%), and female breast (6.9%) cancers [Source](https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.21660). On a personal note, I picked lung cancer prediction having lost a grandmother to the disease.
 
 Access to medical facilities afflict many under developed/developing communities. The ongoing COVID-19 health crisis further taxes over-burdened healthcare systems. Despite the heavy resources being focussed on COVID-19 managmenet, lung cancer continues to afflict many worldwide and may not be picked up till Stage 3 or 4, when it is often too late for intervention. This motivates the creation of a efficient means to diagnose lung cancers to enable commencement of early intervention.
 
 EfficientNet-B4 was selected as a more compact choice over prior work done with the the largest B7 model. Compared with the widely used ResNet-50, EfficientNet-B4 uses similar FLOPS, while improving the top-1 accuracy from 76.3% of ResNet-50 to 82.6% (+6.3%), based on this [source](https://ai.googleblog.com/2019/05/efficientnet-improving-accuracy-and.html).
 
-# DATA
+## DATA
 
 Access to medical data is tough especially for those not in the field. To this end, we use [Kaggle's Chest CT-scan dataset](https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images) to build and validate our model on the assumption the carcinoma presented in the dataset generalizes well to carcinoma in humans elsewhere else. 
 
@@ -21,7 +21,7 @@ Large cell carcinoma Large-cell undifferentiated carcinoma: Large-cell undiffere
 
 Squamous cell carcinoma Squamous cell: This type of lung cancer is found centrally in the lung, where the larger bronchi join the trachea to the lung, or in one of the main airway branches. Squamous cell lung cancer is responsible for about 30 percent of all non-small cell lung cancers, and is generally linked to smoking.
 
-# RESULTS
+## RESULTS
 
 Using EfficientNet B4, results were obtained after 8 Epochs with a comparison of training and validation model metrics shown here:
 
@@ -29,7 +29,7 @@ Using EfficientNet B4, results were obtained after 8 Epochs with a comparison of
 
 <img width="1000" alt="EfficientNet LungCancer" src="https://user-images.githubusercontent.com/40510434/166460333-a12ac703-6e2b-453c-821f-27352b9574e4.PNG">
 
-# FUTURE WORK
+## FUTURE WORK
 
 To improve the performance of the luncg cancer predictor,  I'd recommend retraining with additional clinical data to incorporate cancer cell presentation across various age groups. Lung cancer is a far more complex disease beyond the classes presented in this project.
 
