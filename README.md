@@ -24,7 +24,7 @@ Squamous cell carcinoma Squamous cell: This type of lung cancer is found central
 # RESULTS
 
 Using EfficientNet B4, results were obtained after 8 Epochs with a comparison of training and validation model metrics shown here:
-<img width="448" alt="EfficientNet LungCancer" src="https://user-images.githubusercontent.com/40510434/166460333-a12ac703-6e2b-453c-821f-27352b9574e4.PNG">
+<img width="1000" alt="EfficientNet LungCancer" src="https://user-images.githubusercontent.com/40510434/166460333-a12ac703-6e2b-453c-821f-27352b9574e4.PNG">
 
 
 --------------------------------------------------------------------------
